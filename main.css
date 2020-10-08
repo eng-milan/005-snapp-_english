@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  display: flex;
+  align-items: center;
+  height: 12vh;
+  padding: 5px;
+}
+#logo {
+  width: 12%;
+  margin: 5px;
+}
+#logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto 10px;
+}
+#logo img {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+nav a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  margin: auto 5px;
+  padding: 4px;
+  border-radius: 5px;
+}
+nav a:hover {
+  /* color: rgb(0, 150, 0); */
+  background-color: rgb(0, 209, 112);
+}
+#header > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 17%;
+  height: 70%;
+  margin: auto;
+  border-radius: 25px;
+  background-color: rgb(0, 209, 112);
+  color: white;
+  text-decoration: none;
+}
+#header > a:hover {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  background-color: rgb(0, 150, 0);
+}
+#top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: url(img/Snapp\ Travel.jpg);
+  background-position: center;
+}
+h1,
+h2 {
+  font-size: 3rem;
+  margin: 1%;
+  color: white;
+}
+#download-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-top: 1%;
+}
+#download-links a {
+  width: 49%;
+  margin: 0 0.5%;
+}
+#download-links img {
+  width: 100%;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 15%;
+}
+form input[type="text"] {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px 0 0 10px;
+  width: 50%;
+  height: 50%;
+  border: none;
+  padding: 1%;
+}
+form input[type="submit"] {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0 10px 10px 0;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0, 209, 112);
+  border: none;
+  padding: 1%;
+}
